@@ -9,7 +9,6 @@ public class Quicksort {
     }
 
     private static int partition(int[] array, int low, int high) {
-        System.out.println("This is partition");
         while (low <= high) {
             if (array[low] > array[high]) { //needs to be swapped
                 swap(array, low, high);

@@ -1,6 +1,6 @@
 public class Selectionsort {
 
-    public static void Selectionsort(int[] array) {
+    public static void selectionSort(int[] array) {
         for (int i=0; i<array.length; i++) {
             for (int j=i; j<array.length; j++) {
                 if (array[i] > array[j]) {
@@ -28,7 +28,7 @@ public class Selectionsort {
 
         int[] array = {4, 6, 99, 4, 2};
         printArray(array);
-        Selectionsort(array);
+        selectionSort(array);
         printArray(array);
 
     }
