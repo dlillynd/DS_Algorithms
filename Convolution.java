@@ -59,7 +59,11 @@ public class Convolution {
 
 
     public static void main(String[] args) {
+        System.out.println("Convolution Output");
         convolution(matrix, k_val, k_row, k_col);
+
+        //output is: 9.0 5.0 -7.0 4.0 
+        //11.0 -3.0 -18.0 -1.0 
 
     }
 }

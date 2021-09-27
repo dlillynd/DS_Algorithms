@@ -44,7 +44,6 @@ public class Correlation {
         }
         
 
-        System.out.println("In correlation method");
         printMatrix(answer);
         return answer;
     }
@@ -61,7 +60,11 @@ public class Correlation {
 
 
     public static void main(String[] args) {
+        System.out.println("Correlation Output");
         correlation(matrix, k_val, k_row, k_col);
+        //Output is:
+        //-9.0 -5.0 7.0 -4.0 
+        //-11.0 3.0 18.0 1.0 
 
     }
 }
